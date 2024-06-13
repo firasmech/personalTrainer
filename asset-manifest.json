@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/firasmech/personalTrainer.git/static/css/main.c0782826.css",
-    "main.js": "/firasmech/personalTrainer.git/static/js/main.9380f274.js",
-    "index.html": "/firasmech/personalTrainer.git/index.html",
-    "main.c0782826.css.map": "/firasmech/personalTrainer.git/static/css/main.c0782826.css.map",
-    "main.9380f274.js.map": "/firasmech/personalTrainer.git/static/js/main.9380f274.js.map"
+    "main.css": "/personalTrainer/static/css/main.c0782826.css",
+    "main.js": "/personalTrainer/static/js/main.9380f274.js",
+    "index.html": "/personalTrainer/index.html",
+    "main.c0782826.css.map": "/personalTrainer/static/css/main.c0782826.css.map",
+    "main.9380f274.js.map": "/personalTrainer/static/js/main.9380f274.js.map"
   },
   "entrypoints": [
     "static/css/main.c0782826.css",
