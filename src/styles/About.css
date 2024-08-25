@@ -1,0 +1,64 @@
+@import './variables.css';
+.about__page{
+    padding-bottom: 4rem;
+}
+
+.about__perfil{
+    justify-self: center;
+}
+
+.about__content{
+    row-gap: 4rem;
+}
+.about__data{
+    row-gap: 2rem;
+}
+
+.about__info{
+    row-gap: .75rem;
+    text-align: center;
+    display: grid; /* Keeps your grid structure */
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Centers the div horizontally */
+    padding: 20px; /* Optional: Adds some padding inside the container */
+    text-align: center; /* Centers the text inside the container */
+    justify-items: center; /* Centers the items horizontally within the grid */
+    align-content: center; /* Centers the content vertically if there is extra space */
+}
+
+.about__name{
+    font-size: var(--h1-font-size);
+}
+
+.about__profession{
+    font-size: var(--h2-font-size);
+}
+
+.about__description b{
+    color: var(--first-color);
+}
+
+.about__button{
+    justify-self: center;
+}
+.about__skills{
+    font-size: var(--h3-font-size);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.about__skills-img{
+    width: 75px;
+    transition: transform .4s;
+}
+
+.about__skills-img:hover{
+ transform: translateY(-.5rem);
+}
+
+.about__skills-content{
+    grid-template-columns: repeat(5,max-content);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 1.5rem;
+
+}
